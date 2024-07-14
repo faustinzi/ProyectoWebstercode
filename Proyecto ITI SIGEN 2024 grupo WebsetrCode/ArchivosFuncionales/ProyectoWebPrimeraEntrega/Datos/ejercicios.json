@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "extensión cuádriceps",
+        "descripcion": "En un banco, se extienden las piernas hacia adelante",
+        "nombreImagen": "cuadriceps.png"
+    },
+    {
+        "nombre": "Lagartijas",
+        "descripcion": "en el piso, se extienden los brazos para separar el pecho del suelo",
+        "nombreImagen": "lagartijas.png"
+    }
+]

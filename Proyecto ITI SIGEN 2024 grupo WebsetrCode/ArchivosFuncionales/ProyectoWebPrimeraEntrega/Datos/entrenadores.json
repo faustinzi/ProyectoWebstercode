@@ -1,0 +1,23 @@
+[
+    {
+        "nombreDeUsuario": "entrenador",
+        "nombreImagen": "PepePerfil.png",
+        "contrasenia": "entrenador",
+        "rol": "entrenador",
+        "cedula":"57778883"
+    },
+    {
+        "nombreDeUsuario": "JuanTrainer",
+        "nombreImagen": "JuanPerfil.png",
+        "contrasenia": "admr",
+        "rol": "entrenador",
+        "cedula":"54334563"
+    },
+    {
+        "nombreDeUsuario": "RenzoEntrenador",
+        "nombreImagen": "RenzoPerfil.png",
+        "contrasenia": "rss",
+        "rol": "entrenador",
+        "cedula":"59090903"
+    }
+]
