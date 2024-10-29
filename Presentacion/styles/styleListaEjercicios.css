@@ -1,0 +1,158 @@
+:root{
+    --negro:#000000;
+    --blanco: #FBFBFE;
+    --gris:#c5c5c5;
+    --rojo:red;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+main{
+    background-image: url("../../Assets/imagenes/gymfondo.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: start;
+    background-blend-mode: multiply;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+section{
+    margin-top: 80px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(0,0,0,0.5);
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    border-bottom: var(--negro) 1px solid;
+    padding: 20px;
+    padding-left: 90px;
+    height: 100px;
+}
+.DivNuevoEjercicio{
+    height: 200px;
+}
+.DivNuevoEjercicio form{
+    display: flex;
+    gap: 20px;
+}
+.DivNuevoEjercicio form textarea{
+    resize: none;
+}
+.DivNuevoEjercicio form p{
+    display: flex;
+    flex-direction: column;
+}
+.DivNuevoEjercicio form button{
+    height: 30px;
+    margin-top: 30px;
+}
+article{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border-bottom:var(--negro) 1px solid;
+    padding: 20px;
+    padding-left: 100px;
+    height: 100px;
+    align-items: center;
+}
+article h3{
+    margin-left: -100px;
+}
+.titulo{
+    padding: 15px;
+    margin-right: 100px;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 0px;
+}
+
+.a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 5%;
+    color: black;
+    padding: 4px;
+    border-radius: 8px;
+    width: min-content;
+
+    background-image: linear-gradient(
+        150deg,
+        rgba(223, 84, 71, 0.7),
+        rgba(221, 109, 99, 0.7),
+        rgba(211, 150, 144, 0.7)
+    );
+
+    cursor: pointer;
+    transition: .15s;
+}
+.ap{
+    padding: 5px;
+    margin: 0px;
+    border-radius: 6px;
+    transition: .3s;
+}
+.a:hover {
+    padding: 6px;
+}
+.a:active{
+    transform: scale(0.9);
+}
+
+.divBuscador{
+    height: min-content;
+}
+.divBuscador input{
+    margin-right: 150px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.listaBusqueda{
+    display: none;
+}
+
+form button{
+    width: 50px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+form button:hover{
+    background-color: rgb(189, 218, 230);
+}
+form button:active{
+    transform: scale(0.9);
+}
+
+#toggleFormBtn{
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+    width: 400px;
+    margin-left: 90px;
+}
+#toggleFormBtn:hover{
+    background-color: rgb(189, 218, 230);
+}
+#toggleFormBtn:active{
+    transform: scale(0.9);
+}
+#toggleFormBtn h3{
+    margin: 0;
+}

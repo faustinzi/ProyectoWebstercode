@@ -1,0 +1,16 @@
+@media (max-width: 1199px) {
+
+    section{
+        width:95%;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 10px;
+    }
+    article{
+        height: 210px;
+        padding: 5px;
+        border: rgba(255,255,255,0.5) 1px solid;
+        border-radius: 3px;
+        min-width: 155px;
+    }
+
+}

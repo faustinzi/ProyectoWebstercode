@@ -1,0 +1,50 @@
+@media (max-width: 1199px) {
+
+    section{
+        width: 90%;
+    }
+    .SectionDivUp {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .SectionDivUp .TituloI{
+        grid-column-end: 5;
+    }
+    .SectionDivUp .DescripcionI{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .SectionDivUp .ObjetivoI{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .DivMenuGrilla button, form button{
+        font-size: 12px;
+    }
+    #toggleFormBtn{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .excelDiv{
+        align-items: flex-start;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .container3434{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #excelGrid{
+        width: 1200px;
+        height: fit-content;
+    }
+
+    .DivInfoEjercicio{
+        flex-direction: column;
+    }
+
+    .DivInfoEjercicio img{
+        width: 90%;
+        object-fit: fill;
+    }
+
+}

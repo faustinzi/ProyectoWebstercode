@@ -1,0 +1,148 @@
+:root{
+    --negro:#000000;
+    --blanco: #FBFBFE;
+    --gris:#c5c5c5;
+    --rojo:red;
+}
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+main{
+    background-image: url("../../Assets/imagenes/gymfondo.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+section{
+    margin-top: 100px;
+    width: 1200px;
+    backdrop-filter: blur(15px);
+    margin-bottom: 100px;
+}
+.divUp{
+    padding: 20px;
+    display: flex;
+    border-top: var(--negro) 1px solid;
+    border-bottom: var(--negro) 1px solid;
+}
+.divUpDiv{
+    display: flex;
+}
+h3{
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+h2,h1{
+    margin-left: 20px;
+}
+h1{
+    font-size: 30px;
+    font-weight: lighter;
+}
+h2{
+    font-size: 27px;
+}
+.divCourt{
+    height: 600px;
+    width: 1200px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9,1fr);
+}
+.divCourt article{
+    max-height: 100px;
+}
+.divCourt article select{
+    width: 90px;
+    max-width: 90px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article p, article h3{
+    margin: 0px;
+}
+.divDown{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 20px;
+    gap: 5px;
+}
+.divDown article{
+    border: var(--negro) 1px solid;
+    padding: 5px;
+}
+
+
+.selectSuplente{
+    width:150px;
+}
+
+.nombreJug{
+    color: black;
+    font-size: 20px;
+}
+.Pos{
+    color: black;
+    font-size: 15px;
+}
+
+#toggleFormBtn{
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#toggleFormBtn:hover{
+    background-color: rgb(189, 218, 230);
+}
+#toggleFormBtn:active{
+    transform: scale(0.9);
+}
+#toggleFormBtn h3{
+    margin: 0;
+}
+
+.button1{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 5px;
+}
+.button2{
+    width: 30px;
+    height: 20px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+form button:hover{
+    background-color: rgb(189, 218, 230);
+}
+form button:active{
+    transform: scale(0.9);
+}

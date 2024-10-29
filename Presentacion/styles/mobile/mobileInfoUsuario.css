@@ -1,0 +1,36 @@
+@media (max-width: 1199px) {
+
+    section{
+        width: 90%;
+    }
+    .divUp{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .divUp div{
+        width: 100%;
+        height: 50%;
+    }
+    .divUp-divLeft img{
+        width: 90%;
+        object-fit: contain;
+        margin-left: 5%;
+    }
+    .a{
+        width: 85%;
+    }
+    .divUp .divUp-divRight{
+        display: flex;
+        flex-direction: column;
+        align-content: space-evenly;
+        padding: 20px;
+        padding-top: 0px;
+        width: calc(100% - 40px);
+    }
+    .tituloPagina{
+        border-bottom: #000000 1px solid;
+        width: 80%;
+    }
+
+}

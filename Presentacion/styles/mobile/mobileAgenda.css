@@ -1,0 +1,14 @@
+@media (max-width: 1199px) {
+
+    .main2{
+        width: 90%;
+    }
+    .t1M{
+        margin-left: 15px;
+    }
+    .sectionMid{
+        overflow: scroll;
+        justify-content: flex-start;
+    }
+
+}

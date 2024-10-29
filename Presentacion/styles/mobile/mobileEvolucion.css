@@ -1,0 +1,32 @@
+@media (max-width: 1199px) {
+
+    .main2{
+        width: 90%;
+    }
+    .sectionUp{
+        padding:20px;
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+    }
+    .formAdd{
+        padding: 20px;
+        padding-top: 0;
+        overflow: scroll;
+    }
+    .formAdd form{
+        width:min-content ;
+        grid-template-columns: repeat(8, 1fr);
+    }
+    .sectionMid{
+        overflow: scroll;
+        margin-bottom: 100px;
+    }
+    th{
+        font-size: 13px;
+    }
+    td{
+        font-size: 25px;
+    }
+
+
+}

@@ -1,0 +1,176 @@
+:root{
+    --negro:#000000;
+    --blanco: #FBFBFE;
+    --gris:#c5c5c5;
+    --rojo:red;
+    --rojoOscuro: rgb(187, 61, 61);
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+main{
+    background-image: url("../../Assets/imagenes/gymfondo.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+    background-blend-mode: multiply;
+
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+section{
+    margin-top: 30px;
+    width: 1200px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 100px;
+}
+.SectionDivUp {
+    padding-top: 100px;
+    min-height: 200px;
+    height: min-content;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr); /* Crea 5 filas de igual altura */
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual anchura */
+}
+.SectionDivUp *{
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.UsuarioI, .EntrenadorI, .HorarioI, .HechaI{
+    padding-left: 60px;
+}
+.SectionDivUp .TituloI{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    margin-bottom: 20px;
+}
+.SectionDivUp .UsuarioI{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row: 2;
+}
+.SectionDivUp .EntrenadorI{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row: 3;
+}
+.SectionDivUp .HorarioI{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row: 4;
+}
+.SectionDivUp .HechaI{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row: 5;
+}
+.SectionDivUp .DescripcionI{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row: 5;
+    grid-row: span 6;
+}
+.SectionDivUp .ObjetivoI{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row: 5;
+    grid-row: span 6;
+}
+.excelDiv{
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: var(--negro) 1px solid;
+}
+.DivInfoEjercicio{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.htCore td, .htCore th {
+    border-color: black;
+    color: black !important;
+    font-size: 17px;
+}
+
+.DivMenuGrilla{
+    margin-top: 30px;
+    display: grid;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(
+        150deg,
+        rgba(223, 84, 71, 0.7),
+        rgba(221, 109, 99, 0.7),
+        rgba(211, 150, 144, 0.7)
+    );
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr); 
+}
+.DivMenuGrilla div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MenuBotonModo{
+    grid-row: span 2;
+}
+.MenuBotonGuardar{
+    grid-column: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.MenuBotonEliminarFila{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.DivMenuGrilla button, form button{
+    width: fit-content;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+.DivMenuGrilla button:hover, form button:hover{
+    background-color: rgb(189, 218, 230);
+}
+.DivMenuGrilla button:active, form button:active{
+    transform: scale(0.9);
+}
+
+#toggleFormBtn{
+    height: 35px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+    width: 400px;
+    margin-bottom: 30px;
+}
+#toggleFormBtn:hover{
+    background-color: rgb(189, 218, 230);
+}
+#toggleFormBtn:active{
+    transform: scale(0.9);
+}
+#toggleFormBtn h2{
+    margin: 0;
+}

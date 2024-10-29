@@ -1,0 +1,25 @@
+@media (max-width: 1199px) {
+
+    section{
+        width: 90%;
+    }
+    .divUp{
+        width: 100%;
+        flex-direction: column;
+    }
+    h3{
+        margin:10px;
+    }
+    .divCourtDiv{
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .divDown{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        grid-template-rows: auto;
+        padding: 20px;
+        gap: 5px;
+    }
+
+}

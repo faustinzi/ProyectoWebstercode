@@ -1,0 +1,23 @@
+@media (max-width: 1199px) {
+
+    .section1{
+        width: 75vw;
+    }
+
+    form button{
+        width: 150px;
+    }
+
+    input{
+        width: 200px;
+    }
+
+    .section22{
+        width: 75vw;
+    }
+
+    .h2titulo{
+        text-align: center;
+    }
+
+}

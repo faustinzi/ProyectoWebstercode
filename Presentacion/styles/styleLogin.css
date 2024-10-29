@@ -1,0 +1,106 @@
+:root{
+    --negro:#000000;
+    --blanco: #FBFBFE;
+    --gris:#c5c5c5;
+    --rojo:red;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url("../../Assets/imagenes/gymfondo.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: white;
+}
+.sectionE{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    margin: 0;
+}
+.section1{
+    backdrop-filter: blur(15px);
+    margin-top: 10vh;
+    width: 35vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+}
+form{
+    border-bottom: var(--negro) 1px solid;
+    height: 50%;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+form button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+form button:hover{
+    background-color: rgb(189, 218, 230);
+}
+form button:active{
+    transform: scale(0.9);
+}
+img{
+    margin-left: 5%;
+}
+label{
+    align-self: center;
+    background-color: var(--verde);
+}
+input{
+    width: 40%;
+}
+
+.a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 5%;
+    color: black;
+    padding: 4px;
+    border-radius: 8px;
+
+    background-image: linear-gradient(
+        150deg,
+        rgba(223, 84, 71, 0.7),
+        rgba(221, 109, 99, 0.7),
+        rgba(211, 150, 144, 0.7)
+    );
+
+    cursor: pointer;
+    transition: .15s;
+}
+.ap{
+    padding: 5px;
+    margin: 0px;
+    border-radius: 6px;
+    transition: .3s;
+}
+.a:hover {
+    padding: 6px;
+}
+.a:active{
+    transform: scale(0.9);
+}
